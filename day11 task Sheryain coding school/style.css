@@ -1,0 +1,45 @@
+@font-face {
+    font-family: f1;
+    src: url(./another-danger/Another\ Danger\ -\ Demo.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background: url(https://images.pexels.com/photos/28467954/pexels-photo-28467954.jpeg);
+    width: 100%;
+    /* filter: brightness(43%); */
+    font-family: f1;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 10%;
+}
+h1{
+    color: #cb3702;
+    font-size: 100px;
+    font-weight: 100;
+}
+button{
+    padding: 13px 18px;
+    font-size: 20px;
+    background: transparent;
+    color: aliceblue;
+    border: 2px solid #cb3702;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: #cb3702;
+    border: 2px solid white;
+    transform: scale(1.06);
+}
